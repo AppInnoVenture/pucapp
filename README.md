@@ -8,7 +8,6 @@ Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool
 
 ## ✨ Features
 - **Extensive Content**: Covers **37 subjects** with chapter-wise notes and textbooks.
-- **Room Database**: Uses **Room** with **SQLite** for efficient storage and fast retrieval of educational content.
 - **Foreground Service**: Enables seamless **background PDF downloads** with user-friendly notifications.
 - **Split-Screen Layout**: Innovative resizable panels for simultaneous viewing of English and Kannada medium content.
 - **Transition Animations**: Smooth animations across app sections for a polished user experience.
@@ -17,8 +16,8 @@ Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool
 
 ## 🛠️ Tech Stack
 - **Languages**: Kotlin, XML, SQL
-- **Frameworks**: Android SDK, Jetpack (Room, LiveData), Kotlin Coroutines
-- **Tools**: Android Studio, Gradle, SQLite, Git, Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
+- **Frameworks**: Android SDK, Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
+- **Tools**: Android Studio, Gradle, Git
 
 ---
 

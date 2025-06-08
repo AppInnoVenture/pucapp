@@ -1,0 +1,40 @@
+# PUC Notes and Textbooks ðŸ“–
+
+Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool for students studying 37 subjects in the Karnataka PUC curriculum. Built by **Yashas Gowda B K**, this app serves **5,000+ users** with a **4.7 rating** on Google Play, offering chapter-wise notes and textbooks with innovative features to boost study efficiency.
+
+[Download on Google Play](https://play.google.com/store/apps/details?id=com.puc.pyp&utm_source=shareApp)
+
+---
+
+## âœ¨ Features
+- **Extensive Content**: Covers **37 subjects** with chapter-wise notes and textbooks.
+- **Room Database**: Uses **Room** with **SQLite** for efficient storage and fast retrieval of educational content.
+- **Foreground Service**: Enables seamless **background PDF downloads** with user-friendly notifications.
+- **Split-Screen Layout**: Innovative resizable panels for simultaneous viewing of English and Kannada medium content.
+- **Transition Animations**: Smooth animations across app sections for a polished user experience.
+
+---
+
+## ðŸ› ï¸ Tech Stack
+- **Languages**: Kotlin, XML, SQL
+- **Frameworks**: Android SDK, Jetpack (Room, LiveData), Kotlin Coroutines
+- **Tools**: Android Studio, Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide, Gradle, SQLite, Git
+
+---
+
+## âš ï¸ Note About the Code
+This repository contains the **basic structure** of the PUC Notes app. Sensitive information (e.g., endpoints) and unique features (e.g., custom implementations) have been replaced with **placeholders** for privacy. As a result, running this code in an IDE like Android Studio **will not work** without additional configuration. I'm happy to showcase the full app and its unique features during an interview!
+
+---
+
+## ðŸ“± Try It Out
+Get the app on **[Google Play](https://play.google.com/store/apps/details?id=com.puc.pyp&utm_source=shareApp)** and dive into PUC studies today!
+
+---
+
+## ðŸ“¬ Contact
+- **Developer**: Yashas Gowda B K
+- **Email**: [yashasgowdabk07@gmail.com](mailto:yashasgowdabk07@gmail.com)
+- **Portfolio**: [Google Play Portfolio](https://play.google.com/store/search?q=pub:AppInnoVenture&c=apps)
+
+Interested in the app or Android development? Letâ€™s connect and build something awesome! ðŸš€

@@ -1,6 +1,6 @@
 # PUC Notes and Textbooks 📖
 
-Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool for students studying 37 subjects in the Karnataka PUC curriculum. Built by **Yashas Gowda B K**, this app serves **5,000+ users** with a **4.7 rating** on Google Play, offering chapter-wise notes and textbooks with innovative features to boost study efficiency.
+Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool for students studying 37 subjects in the Karnataka PUC curriculum. Built by **Yashas Gowda B K**, this app serves **10,000+ users** with a **4.7 rating** on Google Play, offering chapter-wise notes and textbooks with innovative features to boost study efficiency.
 
 [Download on Google Play](https://play.google.com/store/apps/details?id=com.puc.pyp&utm_source=shareApp)
 
@@ -16,7 +16,7 @@ Welcome to the **PUC Notes and Textbooks** app, a comprehensive educational tool
 
 ## 🛠️ Tech Stack
 - **Languages**: Kotlin, XML, SQL
-- **Frameworks**: Android SDK, Jetpack (ViewPager2, Navigation Component, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
+- **Frameworks**: Android SDK, Jetpack (ViewPager2, Compose, WorkManager, ViewModel, LiveData), Material Design, Kotlin Coroutines, Glide
 - **Tools**: Android Studio, Gradle, Git
 
 ---

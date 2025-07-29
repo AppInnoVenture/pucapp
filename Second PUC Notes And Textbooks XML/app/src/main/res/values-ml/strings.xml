@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="nav_open">Navigation Drawer തുറക്കുക</string>
+    <string name="nav_close">Navigation Drawer അടയ്ക്കുക</string>
+    <string name="nav_home">ഹോം പേജ്</string>
+    <string name="nav_tg">ഞങ്ങളുടെ Telegram ഗ്രൂപ്പിൽ ചേരുക</string>
+    <string name="nav_tg2">ഞങ്ങളുടെ Telegram ഗ്രൂപ്പ് 2-ൽ ചേരുക</string>
+    <string name="nav_kcet">Play Store-ൽ KCET Notes App നേടുക</string>
+    <string name="nav_share">ആപ്പ് പങ്കിടുക</string>
+    <string name="nav_more">കൂടുതൽ ആപ്പുകൾ</string>
+    <string name="nav_dark">ഡാർക്ക് മോഡിലേക്ക് മാറുക</string>
+    <string name="nav_delete">ഡൗൺലോഡ് ചെയ്ത എല്ലാ ഫയലുകളും ഇല്ലാതാക്കുക</string>
+    <string name="nav_privacy">സ്വകാര്യതാ നയം</string>
+    <string name="nav_exit">ആപ്പിൽ നിന്ന് പുറത്തുകടക്കുക</string>
+    <string name="nav_1puc">Play Store-ൽ First PUC Notes App നേടുക</string>
+    <string name="nav_pucqp">Play Store-ൽ PUC Question Papers App നേടുക</string>
+    <string name="nav_kan">ഭാഷ മാറ്റുക</string>
+    <string name="nav_contact">ഞങ്ങളെ ബന്ധപ്പെടുക/നിർദ്ദേശങ്ങൾ</string>
+    <string name="nav_light">ലൈറ്റ് മോഡിലേക്ക് മാറുക</string>
+
+    <string name="epdf">നിങ്ങൾ ഇതിനകം ഇംഗ്ലീഷ് പതിപ്പാണ് കാണുന്നത്</string>
+    <string name="kpdf">നിങ്ങൾ ഇതിനകം കന്നഡ പതിപ്പാണ് കാണുന്നത്</string>
+    <string name="waitt">ഡൗൺലോഡ് പൂർത്തിയാകുന്നതുവരെ ദയവായി കാത്തിരിക്കുക</string>
+    <string name="noNet">ഉള്ളടക്കം ഡൗൺലോഡ് ചെയ്യാൻ ഇന്റർനെറ്റ് പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="noNetRetry">ഉള്ളടക്കം ഡൗൺലോഡ് ചെയ്യാൻ ഇന്റർനെറ്റ് പ്രവർത്തനക്ഷമമാക്കി \u0027വീണ്ടും ശ്രമിക്കുക\u0027 ബട്ടൺ ടാപ്പ് ചെയ്യുക</string>
+    <string name="errr">പിശക് സംഭവിച്ചു, ദയവായി ഞങ്ങളുടെ Telegram ഗ്രൂപ്പിൽ റിപ്പോർട്ട് ചെയ്യുക</string>
+    <string name="errdwd">ഉള്ളടക്കം ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. നിങ്ങൾ ഇത് വീണ്ടും ഡൗൺലോഡ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?</string>
+    <string name="noFiles">ഇല്ലാതാക്കാൻ ഡൗൺലോഡ് ചെയ്ത ഫയലുകളൊന്നും ലഭ്യമല്ല</string>
+    <string name="dwding">ഡൗൺലോഡ് ചെയ്യുന്നു&#8230; ദയവായി കാത്തിരിക്കുക</string>
+    <string name="dwdComp">ഡൗൺലോഡ് പൂർത്തിയായി</string>
+    <string name="lanShortcutToast">ഹോം സ്ക്രീനിൽ ഒരു കുറുക്കുവഴി സൃഷ്ടിക്കാൻ \u0027ADD\u0027 ബട്ടൺ ടാപ്പ് ചെയ്യുക</string>
+    <string name="exitToast">നിങ്ങളുടെ പരീക്ഷകൾക്ക് എല്ലാ ആശംസകളും!</string>
+<string name="dwdCancel">ഡൗൺലോഡ് റദ്ദാക്കി</string>
+    
+    <string name="alertTitle">ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക</string>
+    <string name="alertMsg">ഡൗൺലോഡ് ചെയ്ത എല്ലാ ഫയലുകളും ഇല്ലാതാക്കണോ?</string>
+    <string name="alertLanMsg">ഡൗൺലോഡ് ചെയ്ത ഫയലുകൾ ഇല്ലാതാക്കണോ?</string>
+    <string name="alertPositive">റദ്ദാക്കുക</string>
+    <string name="alertNegative">ഇല്ലാതാക്കുക</string>
+    <string name="alertCancel">ഇല്ലാതാക്കൽ പ്രവർത്തനം റദ്ദാക്കി</string>
+    <string name="alertDelete">വിജയകരമായി ഇല്ലാതാക്കി</string>
+    <string name="alertRestore">വിജയകരമായി പുനഃസ്ഥാപിച്ചു</string>
+
+    <string name="tab_text">പാഠപുസ്തകം</string>
+    <string name="tab_notes">നോട്ട്സ്</string>
+    <string name="tab_up">പരീക്ഷാ അപ്ഡേറ്റുകൾ</string>
+
+    <string name="up_exam1">2025 പരീക്ഷ - 1 ന്റെ അന്തിമ ഷെഡ്യൂൾ</string>
+    <string name="up_exam2">2025 പരീക്ഷ - 2 ന്റെ അന്തിമ ഷെഡ്യൂൾ</string>
+    <string name="up_exam3">2025 പരീക്ഷ - 3 ന്റെ അന്തിമ ഷെഡ്യൂൾ</string>
+    <string name="up_251_pdf">251.pdf</string>
+    <string name="up_252_pdf">252.pdf</string>
+    <string name="up_253_pdf">253.pdf</string>
+
+    <string name="btn_eng">ഇംഗ്ലീഷ് പതിപ്പ്</string>
+    <string name="btn_kan">കന്നഡ പതിപ്പ്</string>
+    <string name="btn_qp">ഇംഗ്ലീഷ്\nപതിപ്പ്</string>
+    <string name="btn_ans">കന്നഡ\nപതിപ്പ്</string>
+    <string name="btn_spl">വിഭജന മോഡ്</string>
+
+    <string name="lan_shortcut">ഷോർട്ട്കട്ട് സൃഷ്ടിക്കുക</string>
+    <string name="lan_delete">ഡൗൺലോഡ് ചെയ്ത ഫയലുകൾ ഇല്ലാതാക്കുക</string>
+
+    <string name="snack_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="snack_undo">പഴയപടി</string>
+    <string name="snack_yes">അതെ</string>
+
+    <string name="phy">ഭൗതികശാസ്ത്രം</string>
+    <string name="che">രസതന്ത്രം</string>
+    <string name="bio">ബയോളജി</string>
+    <string name="mat">ഗണിതം</string>
+    <string name="kan">കന്നഡ</string>
+    <string name="eco">സാമ്പത്തികശാസ്ത്രം</string>
+    <string name="acc">അക്കൗണ്ടൻസി</string>
+    <string name="bus">ബിസിനസ്\nപഠനങ്ങൾ</string>
+    <string name="pol">പൊളിറ്റിക്കൽ\nസയൻസ്</string>
+    <string name="psy">സൈക്കോളജി</string>
+    <string name="his">ചരിത്രം</string>
+    <string name="soc">സോഷ്യോളജി</string>
+    <string name="geo">ഭൂമിശാസ്ത്രം</string>
+    <string name="edu">വിദ്യാഭ്യാസം</string>
+    <string name="hmu">ഹിന്ദുസ്ഥാനി\nസംഗീതം</string>
+    <string name="cse">കമ്പ്യൂട്ടർ സയൻസ്</string>
+    <string name="ece">ഇലക്ട്രോണിക്സ്</string>
+    <string name="stat">സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+    <string name="bmat">ബേസിക് മാത്സ്</string>
+    <string name="logic">ലോജിക്</string>
+    <string name="hsc">ഹോം സയൻസ്</string>
+    <string name="ggy">ജിയോളജി</string>
+    <string name="kmu">കർണാടക\nസംഗീതം</string>
+    <string name="ret">റീട്ടെയിൽ</string>
+    <string name="aut">ഓട്ടോമൊബൈൽ</string>
+    <string name="bws">ബ്യൂട്ടി ആൻഡ് വെൽനസ്</string>
+    <string name="ite">IT-ITeS</string>
+    <string name="hea">ഹെൽത്ത് കെയർ</string>
+
+    <string name="btn_vid">YouTube-ൽ വീഡിയോ പ്രഭാഷണങ്ങൾ കാണുക</string>
+    <string name="btn_vidprc">YouTube-ൽ പ്രായോഗിക ലാബ് പരീക്ഷണങ്ങൾ കാണുക</string>
+    <string name="btn_vid1">YouTube-ൽ വീഡിയോ പ്രഭാഷണങ്ങൾ കാണുക (1)</string>
+    <string name="btn_vid2">YouTube-ൽ വീഡിയോ പ്രഭാഷണങ്ങൾ കാണുക (2)</string>
+
+    <string name="thankk">നന്ദി</string>
+    <string name="donationn">ആവശ്യമായ വിഭവങ്ങൾ ശേഖരിക്കുന്നതിനും ഒരു ആപ്പ് നിർമ്മിക്കുന്നതിനും ദിവസങ്ങൾ എടുക്കും. നിങ്ങളുടെ ചെറിയ സംഭാവന (₹10 പോലും) സെർവർ ചെലവുകൾ വഹിക്കാൻ ഞങ്ങളെ സഹായിക്കുന്നു. ഈ ആപ്പ് നിങ്ങളെ സഹായിച്ചിട്ടുണ്ടെങ്കിൽ, നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഏതൊരു തുകയും സംഭാവന ചെയ്യുന്നത് പരിഗണിക്കുക.\nനിങ്ങളുടെ പിന്തുണയ്ക്ക് മുൻകൂട്ടി നന്ദി!</string>
+
+
+    <string name="menu_go_to_first_page">ആദ്യ പേജിലേക്ക് പോകുക</string>
+    <string name="menu_go_to_last_page">അവസാന പേജിലേക്ക് പോകുക</string>
+    <string name="menu_jump_to_page">പേജിലേക്ക് പോകുക&#8230;</string>
+    <string name="menu_toggle_auto_scroll">ഓട്ടോ സ്ക്രോൾ</string>
+    <string name="menu_toggle_slideshow_start">സ്ലൈഡ്ഷോ ആരംഭിക്കുക</string>
+    <string name="menu_toggle_slideshow_stop">സ്ലൈഡ്ഷോ നിർത്തുക</string>
+    <string name="menu_toggle_night_mode_to_light">ലൈറ്റ് മോഡിലേക്ക് മാറുക</string>
+    <string name="menu_toggle_night_mode_to_dark">ഡാർക്ക് മോഡിലേക്ക് മാറുക</string>
+    <string name="menu_toggle_fullscreen">ഫുൾ സ്ക്രീൻ മോഡ്</string>
+    <string name="menu_share_screenshot">സ്ക്രീൻഷോട്ട് പങ്കിടുക</string>
+    <string name="menu_zoom_to">സൂം ചെയ്യുക</string>
+    <string name="menu_toggle_rotation_lock_lock">സ്ക്രീൻ റൊട്ടേഷൻ ലോക്ക് ചെയ്യുക</string>
+    <string name="menu_toggle_rotation_lock_unlock">സ്ക്രീൻ റൊട്ടേഷൻ അൺലോക്ക് ചെയ്യുക</string>
+    <string name="menu_rotate_clockwise">ഘടികാരദിശയിൽ തിരിക്കുക</string>
+    <string name="menu_rotate_anticlockwise">അപ്രദക്ഷിണ ദിശയിൽ തിരിക്കുക</string>
+    <string name="menu_toggle_volume_buttons_enable">വോളിയം കീ സ്ക്രോൾ പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="menu_toggle_volume_buttons_disable">വോളിയം കീ സ്ക്രോൾ പ്രവർത്തനരഹിതമാക്കുക</string>
+    <string name="menu_swipe_horizontal_to_vertical">ലംബമായി സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="menu_swipe_horizontal_to_horizontal">തിരശ്ചീനമായി സ്വൈപ്പ് ചെയ്യുക</string>
+    <string name="menu_toggle_spacing_add">ഇട ചേർക്കുക</string>
+    <string name="menu_toggle_spacing_remove">ഇട നീക്കം ചെയ്യുക</string>
+    <string name="menu_page_fling">വേഗതയേറിയ പേജ് സ്വൈപ്പ്</string>
+    <string name="menu_page_snap">പേജ് വിന്യാസം</string>
+    <string name="menu_exit">ആപ്പിൽ നിന്ന് പുറത്തുകടക്കുക</string>
+
+    <string name="toast_auto_scroll_layout_closed">ഓട്ടോ സ്ക്രോൾ ലേഔട്ട് അടച്ചു</string>
+    <string name="toast_rotated_clockwise">ഘടികാരദിശയിൽ തിരിച്ചു</string>
+    <string name="toast_rotated_anticlockwise">അപ്രദക്ഷിണ ദിശയിൽ തിരിച്ചു</string>
+    <string name="toast_locked_screen_rotation">സ്ക്രീൻ റൊട്ടേഷൻ ലോക്ക് ചെയ്തു</string>
+    <string name="toast_unlocked_screen_rotation">സ്ക്രീൻ റൊട്ടേഷൻ അൺലോക്ക് ചെയ്തു</string>
+    <string name="toast_volume_button_scroll_enabled_state">വോളിയം ബട്ടൺ സ്ക്രോൾ %1$s</string>
+    <string name="state_enabled">പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="state_disabled">പ്രവർത്തനരഹിതമാക്കി</string>
+    <string name="toast_already_on_last_page">ഇതിനകം അവസാന പേജിലാണ്</string>
+    <string name="toast_navigated_to_last_page">അവസാന പേജിലേക്ക് നാവിഗേറ്റ് ചെയ്തു</string>
+    <string name="toast_already_on_first_page">ഇതിനകം ആദ്യ പേജിലാണ്</string>
+    <string name="toast_navigated_to_first_page">ആദ്യ പേജിലേക്ക് നാവിഗേറ്റ് ചെയ്തു</string>
+    <string name="toast_swipe_direction_enabled">%1$s സ്വൈപ്പ് പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="direction_horizontal">തിരശ്ചീനം</string>
+    <string name="direction_vertical">ലംബം</string>
+    <string name="toast_slideshow_stopped">സ്ലൈഡ്ഷോ നിർത്തി</string>
+    <string name="toast_added_spacing">ഇട ചേർത്തു</string>
+    <string name="toast_removed_spacing">ഇട നീക്കം ചെയ്തു</string>
+    <string name="toast_page_number_field_empty">പേജ് നമ്പർ ഫീൽഡ് ശൂന്യമായിരിക്കാൻ പാടില്ല</string>
+    <string name="toast_already_viewing_page">നിങ്ങൾ ഇതിനകം %1$d പേജ് കാണുന്നു!</string>
+    <string name="toast_navigated_to_page_number">%1$d പേജിലേക്ക് നാവിഗേറ്റ് ചെയ്തു</string>
+    <string name="toast_page_number_must_be_between">പേജ് നമ്പർ 1 നും %1$d നും ഇടയിൽ ആയിരിക്കണം</string>
+    <string name="toast_please_enter_valid_number">ദയവായി ഒരു സാധുവായ നമ്പർ നൽകുക</string>
+    <string name="toast_zoom_level_field_empty">സൂം ലെവൽ ഫീൽഡ് ശൂന്യമായിരിക്കാൻ പാടില്ല</string>
+    <string name="toast_zoom_level_already_at">സൂം ലെവൽ ഇതിനകം %1$d%% ആണ്!</string>
+    <string name="toast_zoomed_to_percent">%1$d%% ലേക്ക് സൂം ചെയ്തു</string>
+    <string name="toast_zoom_level_must_be_between">സൂം ലെവൽ 50 നും 1000% നും ഇടയിൽ ആയിരിക്കണം</string>
+    <string name="toast_slideshow_started">സ്ലൈഡ്ഷോ ആരംഭിച്ചു</string>
+    <string name="toast_duration_must_be_greater_than_zero">ദൈർഘ്യം 0-നേക്കാൾ കൂടുതലായിരിക്കണം</string>
+    <string name="toast_reached_last_page">അവസാന പേജിൽ എത്തി</string>
+    <string name="toast_page_swipe_enabled">വേഗതയേറിയ പേജ് സ്വൈപ്പ് പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="toast_page_swipe_disabled">വേഗതയേറിയ പേജ് സ്വൈപ്പ് പ്രവർത്തനരഹിതമാക്കി</string>
+    <string name="toast_page_alignment_enabled">പേജ് വിന്യാസം പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="toast_page_alignment_disabled">പേജ് വിന്യാസം പ്രവർത്തനരഹിതമാക്കി</string>
+    <string name="toast_direction_reversed">ദിശ മാറ്റി</string>
+    <string name="toast_preparing_screenshot">സ്ക്രീൻഷോട്ട് തയ്യാറാക്കുന്നു…</string>
+
+    <string name="dialog_title_enter_page_number">പേജ് നമ്പർ നൽകുക:</string>
+    <string name="dialog_button_ok">ശരി</string>
+    <string name="dialog_button_cancel">റദ്ദാക്കുക</string>
+    <string name="dialog_title_enter_zoom_level">സൂം ലെവൽ നൽകുക (50–1000%):</string>
+    <string name="dialog_title_enter_slideshow_duration">സ്ലൈഡ്ഷോ ദൈർഘ്യം നൽകുക (സെക്കൻഡുകൾ)</string>
+    <string name="dialog_button_start">ആരംഭിക്കുക</string>
+    <string name="dialog_title_enable_fast_page_swipe">വേഗതയേറിയ പേജ് സ്വൈപ്പ് പ്രവർത്തനക്ഷമമാക്കണോ?</string>
+    <string name="dialog_button_enable">പ്രവർത്തനക്ഷമമാക്കുക</string>
+    <string name="dialog_button_disable">പ്രവർത്തനരഹിതമാക്കുക</string>
+    <string name="dialog_title_enable_page_alignment">പേജ് വിന്യാസം പ്രവർത്തനക്ഷമമാക്കണോ?</string>
+
+    <string name="dialog_message_fast_page_swipe">വേഗതയേറിയ പേജ് സ്വൈപ്പ്, %1$s സ്വൈപ്പ് ചെയ്യുന്നതിലൂടെ പുസ്തകത്തിലെ പേജുകൾ മറിക്കുന്നതുപോലെ വേഗത്തിൽ പേജുകൾ മാറ്റാൻ അനുവദിക്കുന്നു. ഇത് ഓൺ ചെയ്യുമ്പോൾ, ഒരു സ്വൈപ്പ് അടുത്തതോ മുൻപത്തെതോ ആയ പേജിലേക്ക് കൊണ്ടുപോകുന്നു. ഇത് പേജുകളിലൂടെ വേഗത്തിൽ നീങ്ങാൻ സഹായിക്കുന്നു, പക്ഷേ മറ്റ് സ്വൈപ്പ് പ്രവർത്തനങ്ങളെ ബാധിച്ചേക്കാം.\n\nനിങ്ങൾ വേഗതയേറിയ പേജ് സ്വൈപ്പ് പ്രവർത്തനക്ഷമമാക്കണോ?</string>
+    <string name="dialog_message_page_alignment">പേജ് വിന്യാസം, %1$s സ്വൈപ്പ് ചെയ്ത ശേഷം ഓരോ പേജും പൂർണ്ണമായി മധ്യത്തിൽ വരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു. ഇത് ഓൺ ചെയ്യുമ്പോൾ, സ്വൈപ്പ് നിർത്തുമ്പോൾ പേജ് സ്വയമേവ മധ്യത്തിൽ ക്രമീകരിക്കപ്പെടും. ഇത് വായന എളുപ്പമാക്കുന്നു, പക്ഷേ കുറച്ച് സുഗമമല്ലാത്തതായി തോന്നിയേക്കാം.\n\nനിങ്ങൾ പേജ് വിന്യാസം പ്രവർത്തനക്ഷമമാക്കണോ?</string>
+
+    <string name="direction_horizontally">തിരശ്ചീനമായി</string>
+    <string name="direction_up_or_down">മുകളിലേക്കോ താഴേക്കോ</string>
+
+</resources>

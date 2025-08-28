@@ -80,11 +80,8 @@ class PdfViewerActivity : BaseActivity() {
     private lateinit var binding: ActivityPdfViewerBinding
     private lateinit var pdfFile: File
     private lateinit var progressBar: ProgressBar
-    private var isFullScreen = false
     private var isVolumeButtonsEnabled = false
     private var isSwipeHorizontal = false
-    private var isRotationLocked = false
-    private val imm by lazy { getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager }
     private var isAutoScrolling = false
     private val belowLayout by lazy { intent.getBooleanExtra("belowLayout", false) }
     private var totalPgPdf = 1
@@ -104,6 +101,9 @@ class PdfViewerActivity : BaseActivity() {
     private val snackBarTheme by lazy { ContextThemeWrapper(this, if (isNight) R.style.SnackbarNightTheme else R.style.SnackbarLightTheme) }
     private var isIncreasing: Boolean? = null
     private val viewModel: DownloadViewModel by viewModels()
+
+    override fun getRootView(): View = binding.root
+    override fun getDescPdf(): View = binding.descPdf
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -279,7 +279,7 @@ class PdfViewerActivity : BaseActivity() {
             finish()
         }
 
-lifecycleScope.launch {
+        lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.downloadState.collect { state ->
                     isDownloading = state.workId != null
@@ -434,7 +434,8 @@ lifecycleScope.launch {
         menuInflater.inflate(R.menu.menu_pdf_viewer, menu)
         return true
     }
-override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_zoom_to -> {
                 showZoomToDialog()
@@ -719,24 +720,6 @@ override fun onOptionsItemSelected(item: MenuItem): Boolean {
         showKeyboardForDialog(dialog, editInterval)
     }
 
-    private fun showKeyboardForDialog(dialog: AlertDialog, editText: TextInputEditText) {
-        val keyboardJob = lifecycleScope.launch {
-            delay(300)
-            if (!dialog.isShowing || isFinishing) return@launch
-            editText.apply {
-                isFocusable = true
-                isFocusableInTouchMode = true
-                requestFocus()
-                selectAll()
-                imm.showSoftInput(this, InputMethodManager.SHOW_IMPLICIT)
-            }
-        }
-
-        dialog.setOnDismissListener {
-            keyboardJob.cancel()
-        }
-    }
-
     private fun startSlideshow(interval: Double) {
             
     // Dummy Placeholder
@@ -752,45 +735,6 @@ override fun onOptionsItemSelected(item: MenuItem): Boolean {
             TransitionManager.beginDelayedTransition(binding.root as RelativeLayout, AutoTransition().setDuration(500))
             openBelowLayout()
         }
-    }
-
-    @Suppress("DEPRECATION")
-    private fun toggleFullScreen() {
-       TransitionManager.beginDelayedTransition(binding.root as RelativeLayout, AutoTransition().setDuration(500))
-        if (isFullScreen) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                window.insetsController?.show(WindowInsets.Type.statusBars() or WindowInsets.Type.navigationBars())
-            } else {
-                window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_VISIBLE
-                window.statusBarColor = Color.TRANSPARENT
-                window.navigationBarColor = Color.TRANSPARENT
-            }
-            binding.descPdf.isVisible = true
-            isFullScreen = false
-            ViewCompat.requestApplyInsets(binding.root)
-        } else {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                window.insetsController?.let {
-                    it.hide(WindowInsets.Type.statusBars() or WindowInsets.Type.navigationBars())
-                    it.systemBarsBehavior =
-                        WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-                }
-            } else {
-                window.decorView.systemUiVisibility = (
-                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or
-                                View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or
-                                View.SYSTEM_UI_FLAG_LAYOUT_STABLE or
-                                View.SYSTEM_UI_FLAG_FULLSCREEN or
-                                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
-                                View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-                        )
-                window.statusBarColor = Color.TRANSPARENT
-                window.navigationBarColor = Color.TRANSPARENT
-            }
-            binding.descPdf.isVisible = false
-            isFullScreen = true
-        }
-        binding.root.requestLayout()
     }
 
     private fun shareScreenshot() {
@@ -900,25 +844,6 @@ override fun onOptionsItemSelected(item: MenuItem): Boolean {
             }
             .show()
     }
-
-    private fun rotateAntiClockwise() {
-               
-    // Dummy Placeholder
-    // In main app it determines current orientation and changes the orientation by 90° , simplified here to keep it private; happy to demo it in an interview! 
-   
-        isRotationLocked = true
-        Toast.makeText(this,  R.string.toast_rotated_anticlockwise, Toast.LENGTH_SHORT).show()
-    }
-
-    private fun rotateClockwise() {
-     // Dummy Placeholder
-    // In main app it determines current orientation and changes the orientation by -90°, simplified here to keep it private; happy to demo it in an interview! 
-    
-
-        isRotationLocked = true
-        Toast.makeText(this, R.string.toast_rotated_clockwise, Toast.LENGTH_SHORT).show()
-    }
-
 
     private fun openAutoScrollLayout() {
                
